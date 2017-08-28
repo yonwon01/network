@@ -3,7 +3,7 @@ package thread;
 public class MultiThreadEx {
 
 	public static void main(String[] args) {
-
+//List<PrintWriter> list=new ArrayList<PrintWriter>();
 		Thread thread1 = new AlphabetThread();//1.thread class
 		Thread thread2 = new Thread(new DigitThread());//2.thread interface
 		new Thread(new Runnable() {//3.main에다가 바로 구현하는법
